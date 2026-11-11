@@ -203,6 +203,7 @@ small { color: var(--muted); }
 .contact .org { font-weight: 900; }
 .contact .tel { font-size: 26px; font-weight: 900; margin: 0; }
 .contact .tel a { color: var(--ink); text-decoration: none; }
+.contact .mail { font-weight: 700; overflow-wrap: anywhere; }
 
 /* フッター */
 .site-footer {
