@@ -154,6 +154,17 @@ small { color: var(--muted); }
   border: var(--line); box-shadow: var(--shadow);
   transform: rotate(-3deg);
 }
+.new-award {
+  margin-top: 16px; padding: 14px 18px;
+  background: #fff4dc; border: var(--line); box-shadow: var(--shadow);
+}
+.new-award .new-label { margin: 0 0 6px; font-weight: 900; color: var(--red); }
+.new-award ul { margin: 0 0 6px; padding-left: 1.2em; }
+.new-award p { margin: 0; }
+.tag-new {
+  display: inline-block; margin-right: 6px; padding: 0 6px;
+  background: var(--red); color: #fff; font-size: 12px; font-weight: 900; border-radius: 3px;
+}
 .cosplay-img { position: relative; margin: 0; border: 4px solid var(--ink); box-shadow: var(--shadow); }
 .cosplay-img figcaption {
   position: absolute; right: 8px; bottom: 8px;
